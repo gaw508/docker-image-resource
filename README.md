@@ -28,6 +28,9 @@ Note: docker registry must be [v2](https://docs.docker.com/registry/spec/api/).
 * `aws_session_token`: *Optional.* AWS session token (assumed role) to use for acquiring ECR
   credentials.
 
+* `aws_sdk_load_config`: *Optional.* If your profiles use assumed roles or additional
+  credential providing processes, you will also need to specify this as `true`.
+
 * `insecure_registries`: *Optional.* An array of CIDRs or `host:port` addresses
   to whitelist for insecure access (either `http` or unverified `https`).
   This option overrides any entries in `ca_certs` with the same address.
