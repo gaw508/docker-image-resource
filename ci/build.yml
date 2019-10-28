@@ -8,6 +8,7 @@ image_resource:
 inputs:
 - name: docker
 
+# TODO
 - name: docker-image-resource
   path: gopath/src/github.com/concourse/docker-image-resource
 
